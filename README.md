@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 =======
 # Cheminfo_Tutorial
