@@ -28,3 +28,11 @@ python -m ipykernel install --user --name=chemprop_pgg
 
 # To activate the env:
 source lrlhps_dir/virtual_env/chemprop_pgg/bin/activate
+
+
+To run chemprop_pgg use following setup:
+
+module purge
+module load proxy-setup
+module load python/3.8.5
+source ~/lrlhps_dir/virtual_env/chemprop_pgg/bin/activate
