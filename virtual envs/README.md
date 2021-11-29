@@ -7,7 +7,7 @@ This setup is for running the v1.4.0 of ChemProp as a separate virtual env. Inst
 module purge 
 module load proxy-setup
 module load python/3.8.5
-python3 -m venv "/home/l017896/path"
+python3 -m venv "/home/l017896/path...."
 
 # Modules - make sure to have proxy-setup
 pip install --upgrade pip
@@ -21,7 +21,7 @@ pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f htt
 
 # To install chemprop
 git clone https://github.com/chemprop/chemprop.git
-cd "path/home/l017896/lrlhps_dir/repo/chemprop"
+cd "path...../home/l017896/lrlhps_dir/repo/chemprop"
 pip install -e .
 
 # Jupyter Kernel
@@ -30,7 +30,7 @@ python -m ipykernel install --user --name=chemprop_pgg
 
 
 # To activate the env:
-source "path:lrlhps_dir/virtual_env/chemprop_pgg/bin/activate"
+source "path...:lrlhps_dir/virtual_env/chemprop_pgg/bin/activate"
 ````
 
 # To run chemprop_pgg use following setup:
